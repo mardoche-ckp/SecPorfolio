@@ -11,7 +11,7 @@ import {
 export const runtime = 'nodejs'
 
 const OWNER_EMAIL = 'ckpmado@gmail.com'
-const FROM_EMAIL = 'Portfolio <onboarding@resend.dev>'
+const FROM_EMAIL = 'Portfolio <contact@madochecakpo.me>'
 
 export async function POST(request: Request) {
   const ip = getClientIp(request.headers)
