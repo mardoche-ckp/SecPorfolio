@@ -10,10 +10,10 @@ export function AboutSection() {
   const { t } = useLanguage()
 
   const images = [
-    { src: '/images/work-1.png', badge: t.about.badges.professional },
-    { src: '/images/work-2.png', badge: t.about.badges.creative },
-    { src: '/images/work-3.png', badge: t.about.badges.developer },
-    { src: '/images/work-4.png', badge: t.about.badges.designer },
+    { src: '/images/work-1.webp', badge: t.about.badges.professional },
+    { src: '/images/work-2.webp', badge: t.about.badges.creative },
+    { src: '/images/work-3.webp', badge: t.about.badges.developer },
+    { src: '/images/work-4.webp', badge: t.about.badges.designer },
   ]
 
   const columns = [
