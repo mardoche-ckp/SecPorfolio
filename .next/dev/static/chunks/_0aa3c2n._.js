@@ -2377,7 +2377,7 @@ var _s = __turbopack_context__.k.signature();
 const skillBars = [
     {
         name: 'System Security',
-        level: 85
+        level: 70
     },
     {
         name: 'Networking',
@@ -2389,7 +2389,7 @@ const skillBars = [
     },
     {
         name: 'Pentesting Tools',
-        level: 72
+        level: 60
     },
     {
         name: 'Web Development',

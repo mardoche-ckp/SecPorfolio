@@ -213,6 +213,11 @@ const translations = {
                     desc: 'Analysis of the threat landscape and techniques used by cybercriminals.'
                 },
                 {
+                    title: 'Introduction to Cybersecurity',
+                    issuer: 'Cisco network Academy',
+                    desc: 'Mastery of cybersecurity fundamentals, data protection, and defense against cyber threats.'
+                },
+                {
                     title: 'Certificate in Cybercrime',
                     issuer: 'UNODC Spark',
                     desc: 'International legal framework and mechanisms to fight cybercrime.'
@@ -434,6 +439,11 @@ const translations = {
                     title: 'Introduction to the Threat Landscape 3.0 (NSE 2)',
                     issuer: 'Fortinet Training Institute',
                     desc: 'Analyse du paysage des menaces et des techniques utilisées par les cybercriminels.'
+                },
+                {
+                    title: 'Introduction to Cybersecurity',
+                    issuer: 'Cisco network Academy',
+                    desc: 'Maîtrise des fondamentaux de la cybersécurité, de la protection des données et de la défense contre les cybermenaces.'
                 },
                 {
                     title: 'Certificate in Cybercriminalité',

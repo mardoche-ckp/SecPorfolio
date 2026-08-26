@@ -2234,7 +2234,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$reveal$2e$tsx_
 const skillBars = [
     {
         name: 'System Security',
-        level: 85
+        level: 70
     },
     {
         name: 'Networking',
@@ -2246,7 +2246,7 @@ const skillBars = [
     },
     {
         name: 'Pentesting Tools',
-        level: 72
+        level: 60
     },
     {
         name: 'Web Development',

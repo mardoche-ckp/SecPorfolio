@@ -6,7 +6,6 @@ import { SkillsSection } from '@/components/skills-section'
 import { CertificationsSection } from '@/components/certifications-section'
 import { ProjectsSection } from '@/components/projects-section'
 import { TestimonialsSection } from '@/components/testimonials-section'
-import { NewsletterSection } from '@/components/newsletter-section'
 import { ContactSection } from '@/components/contact-section'
 import { SiteFooter } from '@/components/site-footer'
 
@@ -22,7 +21,6 @@ export default function Page() {
         <CertificationsSection />
         <ProjectsSection />
         <TestimonialsSection />
-        <NewsletterSection />
         <ContactSection />
       </main>
       <SiteFooter />

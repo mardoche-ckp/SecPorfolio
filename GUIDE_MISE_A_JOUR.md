@@ -1,4 +1,4 @@
-# Guide de mise à jour du portfolio (SecPortfolio)
+# Guide de mise à jour du portfolio (SecPortfolio) 
 
 Ce document explique comment modifier, ajouter ou réorganiser le contenu de ton
 site (textes, cartes, sections, animations, images) sans devoir tout

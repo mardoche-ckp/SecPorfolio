@@ -65,7 +65,7 @@ export async function POST(request: Request) {
 
   try {
     const resend = new Resend(apiKey)
-    await resend.emails.send({
+    const { data, error } = await resend.emails.send({
       from: FROM_EMAIL,
       to: OWNER_EMAIL,
       replyTo: email,
@@ -78,6 +78,18 @@ export async function POST(request: Request) {
              <hr/>
              <p><strong>IP:</strong> ${escapeHtml(ip)}</p>`,
     })
+
+    // IMPORTANT: the Resend SDK does NOT throw on API-level errors
+    // (invalid/unverified domain, bad recipient, invalid key, etc.).
+    // It resolves normally with { data: null, error: {...} }.
+    // The old code never checked `error`, so it always answered the
+    // client with { ok: true } even when nothing was actually sent.
+    if (error) {
+      console.log('[v0] Contact send failed:', error.message)
+      return NextResponse.json({ error: 'server_error' }, { status: 500 })
+    }
+
+    console.log('[v0] Contact email sent:', data?.id)
     return NextResponse.json({ ok: true })
   } catch (error) {
     console.log('[v0] Contact send failed:', (error as Error).message)

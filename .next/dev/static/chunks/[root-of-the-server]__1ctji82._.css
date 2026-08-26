@@ -773,10 +773,6 @@
     margin-bottom: calc(var(--spacing) * 3);
   }
 
-  .mb-4 {
-    margin-bottom: calc(var(--spacing) * 4);
-  }
-
   .mb-5 {
     margin-bottom: calc(var(--spacing) * 5);
   }
@@ -1234,10 +1230,6 @@
     .bg-background\/95 {
       background-color: color-mix(in oklab, var(--background) 95%, transparent);
     }
-  }
-
-  .bg-card {
-    background-color: var(--card);
   }
 
   .bg-card\/60 {
