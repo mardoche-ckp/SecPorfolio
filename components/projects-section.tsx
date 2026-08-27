@@ -6,7 +6,7 @@ import { Reveal } from '@/components/reveal'
 
 export function ProjectsSection() {
   const { t } = useLanguage()
-  const images = ['/images/work-1.webp', '/images/work-3.webp', '/images/work-4.webp']
+  const images = ['/images/cloud_work.webp','/images/ws_work.webp','/images/devis_work.webp', '/images/work-3.webp']
 
   return (
     <section id="projects" className="px-4 py-20 sm:px-6 md:py-28">

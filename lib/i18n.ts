@@ -14,10 +14,10 @@ export const translations = {
     },
     hero: {
       greeting: "Hi, I'm",
-      name: 'Madoche',
+      name: 'Madoche CAKPO',
       role: 'Cybersecurity Student & Developer',
       description:
-        'I secure systems, hunt vulnerabilities, and build reliable applications. Blending academic training, certifications, and hands-on projects to master modern cyber defense.',
+        'Third-year university student at ESGIS Benin,I secure systems, hunt vulnerabilities, and build reliable applications. Blending academic training, certifications, and hands-on projects to master modern cyber defense.',
       contact: 'Contact Me',
       downloadCv: 'Download CV',
       stats: {
@@ -93,6 +93,11 @@ export const translations = {
       education: 'Education',
       educationItems: [
         {
+          period: '2026 – 2027',
+          title: 'Bachelor 3 in Cybersecurity',
+          place: 'ESGIS Benin, Cotonou',
+        },
+        {
           period: '2025 – 2026',
           title: 'Bachelor 2 in Cybersecurity',
           place: 'ESGIS Benin, Cotonou',
@@ -144,12 +149,12 @@ export const translations = {
     projects: {
       title: 'Featured',
       titleHighlight: 'Projects',
-      subtitle: 'Academic and practical work in security and development',
+      subtitle: 'Professional, Academic and Personal practical work',
       items: [
         {
-          title: 'Student Management Web App',
-          tags: ['PHP', 'MySQL', 'JavaScript'],
-          desc: 'Dynamic platform managing students, grades and subjects with automatic QR-code report cards. Protected against SQL injection with prepared statements and role-based access control.',
+          title: 'Self-Hosted Cloud Server (Nextcloud)',
+          tags: ['Nextcloud', 'Apache', 'VPS', 'Let\'s Encrypt'],
+          desc: 'Production deployment of a Nextcloud server on a VPS with a dedicated domain, a fully custom-designed interface, HTTPS (Let\'s Encrypt, auto-renewal), and complete security hardening (TOTP 2FA, HSTS, encryption, automatic session timeout).',
         },
         {
           title: 'Windows Server Admin Lab',
@@ -160,6 +165,11 @@ export const translations = {
           title: 'Quote Generator Mobile App',
           tags: ['Capacitor', 'JavaScript', 'PDF'],
           desc: 'Hybrid mobile app to simplify quote generation with encrypted local storage and secure PDF export of documents.',
+        },
+        {
+          title: 'Student Management Web App',
+          tags: ['PHP', 'MySQL', 'JavaScript'],
+          desc: 'Dynamic platform managing students, grades and subjects with automatic QR-code report cards. Protected against SQL injection with prepared statements and role-based access control.',
         },
       ],
     },
@@ -188,20 +198,7 @@ export const translations = {
         },
       ],
     },
-    newsletter: {
-      title: 'Stay',
-      titleHighlight: 'Updated',
-      subtitle:
-        'Subscribe to get updates on my latest projects, write-ups and security research.',
-      placeholder: 'Enter your email',
-      button: 'Subscribe',
-      sending: 'Sending...',
-      success: 'Thanks for subscribing! Check your inbox soon.',
-      errorGeneric: 'Something went wrong. Please try again.',
-      errorEmail: 'Please enter a valid email address.',
-      errorRate: 'Too many requests. Please wait a moment.',
-      privacy: 'No spam. Unsubscribe anytime.',
-    },
+    
     contact: {
       title: 'Get In',
       titleHighlight: 'Touch',
@@ -236,10 +233,10 @@ export const translations = {
     },
     hero: {
       greeting: 'Salut, je suis',
-      name: 'Madoche',
+      name: 'Madoche CAKPO',
       role: 'Étudiant en Cybersécurité & Développeur',
       description:
-        "Je construis progressivement mon parcours autour de la cybersécurité et du développement logiciel. Je m'intéresse particulièrement à la sécurisation des systèmes, au développement d'applications fiables et à la compréhension des failles et mécanismes de défense informatique.",
+        "Etudiant en 3eme année universitaire a ESGIS Bénin . Je m'intéresse particulièrement à la sécurisation des systèmes, au développement d'applications fiables et à la compréhension des failles et mécanismes de défense informatique.",
       contact: 'Me contacter',
       downloadCv: 'Télécharger le CV',
       stats: {
@@ -315,6 +312,11 @@ export const translations = {
       education: 'Formation',
       educationItems: [
         {
+          period: '2026 – 2027',
+          title: 'Licence 3 en Cybersécurité',
+          place: 'ESGIS Bénin, Cotonou',
+        },
+        {
           period: '2025 – 2026',
           title: 'Licence 2 en Cybersécurité',
           place: 'ESGIS Bénin, Cotonou',
@@ -366,12 +368,12 @@ export const translations = {
     projects: {
       title: 'Projets',
       titleHighlight: 'phares',
-      subtitle: 'Travaux académiques et pratiques en sécurité et développement',
+      subtitle: 'Travaux Professionnel, académiques et pratiques Personnel',
       items: [
         {
-          title: 'Application web de gestion d\'étudiants',
-          tags: ['PHP', 'MySQL', 'JavaScript'],
-          desc: 'Plateforme dynamique gérant les étudiants, notes et matières avec génération automatique de bulletins à code QR. Protégée contre les injections SQL via requêtes préparées et contrôle d\'accès par rôles.',
+          title: 'Serveur Cloud Auto-hébergé (Nextcloud)',
+          tags: ['Nextcloud', 'Apache', 'VPS', 'Let\'s Encrypt'],
+          desc: 'Déploiement en production d\'un serveur Nextcloud sur VPS avec nom de domaine dédié, design entièrement personnalisé, HTTPS (Let\'s Encrypt, renouvellement auto),et durcissement complet de la sécurité (2FA TOTP, HSTS, chiffrement, déconnexion automatique).',
         },
         {
           title: 'Laboratoire Windows Server',
@@ -382,6 +384,11 @@ export const translations = {
           title: 'Application mobile de devis',
           tags: ['Capacitor', 'JavaScript', 'PDF'],
           desc: 'Application mobile hybride pour simplifier la génération de devis avec stockage local chiffré et export sécurisé des documents en PDF.',
+        },
+        {
+          title: 'Application web de gestion d\'étudiants',
+          tags: ['PHP', 'MySQL', 'JavaScript'],
+          desc: 'Plateforme dynamique gérant les étudiants, notes et matières avec génération automatique de bulletins à code QR. Protégée contre les injections SQL via requêtes préparées et contrôle d\'accès par rôles.',
         },
       ],
     },

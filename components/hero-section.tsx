@@ -105,7 +105,7 @@ export function HeroSection() {
               }}
             >
               <Image
-                src="/images/avatar.webp"
+                src="/images/avatar1.webp"
                 alt="Portrait of Madoche CAKPO"
                 fill
                 priority

@@ -1,3 +1,4 @@
 node_modules/
-GUIDE_MISE_A_JOUR.md
+.next/
 .env.local
+GUIDE_MISE_A_JOUR.md

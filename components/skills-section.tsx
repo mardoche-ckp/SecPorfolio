@@ -5,8 +5,8 @@ import { useLanguage } from '@/components/language-provider'
 import { Reveal } from '@/components/reveal'
 
 const skillBars = [
-  { name: 'System Security', level: 70 },
-  { name: 'Networking', level: 80 },
+  { name: 'System Security', level: 50 },
+  { name: 'Networking', level: 70 },
   { name: 'Python / Scripting', level: 88 },
   { name: 'Pentesting Tools', level: 60 },
   { name: 'Web Development', level: 78 },
