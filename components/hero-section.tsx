@@ -12,7 +12,7 @@ export function HeroSection() {
   const stats = [
     { value: '10+', label: t.hero.stats.projects },
     { value: '2+', label: t.hero.stats.years },
-    { value: '4+', label: t.hero.stats.certs },
+    { value: '5+', label: t.hero.stats.certs },
   ]
 
   return (
